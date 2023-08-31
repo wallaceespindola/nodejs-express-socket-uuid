@@ -85,7 +85,9 @@ This ensures your node_modules directory (which can be recreated with npm instal
 
 
 ## Usage
+
 Start the server:
+
     ```bash
     npm start
 
@@ -95,7 +97,8 @@ Then, navigate to http://localhost:3000 in your web browser.
 ## Testing
 To run the tests:
 
-npm test
+    ```bash
+    npm test
 
 
 ## Contributing
