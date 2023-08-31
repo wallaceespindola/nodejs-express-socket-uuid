@@ -23,19 +23,19 @@ It's built using Express for the backend server and UUID for unique identificati
 ## Structure:
 
 ```bash
-    /project: nodejs-express-socket-uuid
-    |-- /chat                  # node chat tests with socket.io
-    |-- /node_modules          # Modules and packages installed by npm
-    |-- /public                # Public static assets (e.g., styles, images)
-    |-- /routes                # Express route handlers
-    |-- /views                 # Template views (if using a templating engine)
-    |-- /models                # Database models (if using a database)
-    |-- /middlewares           # Middlewares for express (authentication, logging, etc.)
-    |-- /config                # Configuration files (database, environment variables)
-    |-- /test                  # Unit and integration tests
-    |-- package.json           # Project manifest
-    |-- server.js              # Main application entry point
-    |-- .gitignore             # List of files and folders to ignore in version
+/project: nodejs-express-socket-uuid
+|-- /chat                  # node chat tests with socket.io
+|-- /node_modules          # Modules and packages installed by npm
+|-- /public                # Public static assets (e.g., styles, images)
+|-- /routes                # Express route handlers
+|-- /views                 # Template views (if using a templating engine)
+|-- /models                # Database models (if using a database)
+|-- /middlewares           # Middlewares for express (authentication, logging, etc.)
+|-- /config                # Configuration files (database, environment variables)
+|-- /test                  # Unit and integration tests
+|-- package.json           # Project manifest
+|-- server.js              # Main application entry point
+|-- .gitignore             # List of files and folders to ignore in version
 ```
     
 ## Features
@@ -49,21 +49,21 @@ It's built using Express for the backend server and UUID for unique identificati
 
 1. Clone the repository:
 
-  ```bash
-  git clone https://github.com/YourUsername/nodejs-express-socket-uuid.git
-  ```
+```bash
+git clone https://github.com/YourUsername/nodejs-express-socket-uuid.git
+```
 
 Navigate to the project directory:
 
-    ```bash
-    cd nodejs-express-socket-uuid
-    ```
+```bash
+cd nodejs-express-socket-uuid
+```
 
 Install the dependencies:
 
-    ```bash
-    npm install
-    ```
+```bash
+npm install
+```
 
 2. Installing a Node.js package
 
@@ -71,32 +71,32 @@ For our example, let''s say you want to install the express framework. Here's ho
 
 2.1. First, initialize a new Node.js project (if you haven’t already) by using:
 
-    ```bash
-    mkdir my_project
-    cd my_project
-    npm init -y
-    ```
+```bash
+mkdir my_project
+cd my_project
+npm init -y
+```
 
 2.2. Now, to install express:
 
-    ```bash
-    npm install express
-    ```
+```bash
+npm install express
+```
 
 ##Run your server:
 
-    ```bash
-    node server.js
-    ```
+```bash
+node server.js
+```
 
 Visit http://localhost:3000 in your browser, and you should see a "Hello World!".
 
 ##A tip for your .gitignore:
 
-    ```bash
-    node_modules/
-    *.log
-    ```
+```bash
+node_modules/
+*.log
+```
 This ensures your node_modules directory (which can be recreated with npm install from the package.json) and any .log files aren't committed to version control.
 
 
@@ -104,19 +104,20 @@ This ensures your node_modules directory (which can be recreated with npm instal
 
 Start the server:
 
-    ```bash
-    npm start
-    ```
+```bash
+npm start
+```
 
 Then, navigate to http://localhost:3000 in your web browser.
 
 
 ## Testing
+
 To run the tests:
 
-    ```bash
-    npm test
-    ```
+```bash
+npm test
+```
 
 ## Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check issues page.
