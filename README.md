@@ -22,7 +22,7 @@ It's built using Express for the backend server and UUID for unique identificati
 
 ## Structure:
 
-   ```bash
+```bash
     /project: nodejs-express-socket-uuid
     |-- /chat                  # node chat tests with socket.io
     |-- /node_modules          # Modules and packages installed by npm
@@ -36,7 +36,7 @@ It's built using Express for the backend server and UUID for unique identificati
     |-- package.json           # Project manifest
     |-- server.js              # Main application entry point
     |-- .gitignore             # List of files and folders to ignore in version
-    ```
+```
     
 ## Features
 
