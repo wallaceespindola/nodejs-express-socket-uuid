@@ -1,5 +1,4 @@
-# Node.js Chat Application 
-#(Tests on node.js with packages like socket.io, express, uuid, moment, iodash, underscore, email validator)
+# Node.js Chat Application (tests on socket.io, express, uuid, moment, iodash, underscore, validator)
 
 A simple real-time chat application built with Node.js, Express, Socket.io, and UUID. Also other tests added for packages like: moment, iodash, underscore, email validator.
 
