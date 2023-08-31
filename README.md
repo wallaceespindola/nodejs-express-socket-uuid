@@ -10,7 +10,7 @@
 |-- /models                # Database models (if using a database)
 |-- /middlewares           # Middlewares for express (authentication, logging, etc.)
 |-- /config                # Configuration files (database, environment variables)
-|-- /tests                 # Unit and integration tests
+|-- /test                  # Unit and integration tests
 |-- package.json           # Project manifest
 |-- server.js              # Main application entry point
 |-- .gitignore             # List of files and folders to ignore in version
