@@ -37,7 +37,7 @@ It's built using Express for the backend server and UUID for unique identificati
 |-- server.js              # Main application entry point
 |-- .gitignore             # List of files and folders to ignore in version
 ```
-    
+
 ## Features
 
 - **Real-time Chat**: Users can join and send messages in real time.
@@ -83,7 +83,7 @@ npm init -y
 npm install express
 ```
 
-##Run your server:
+3. Run your server:
 
 ```bash
 node server.js
@@ -91,12 +91,14 @@ node server.js
 
 Visit http://localhost:3000 in your browser, and you should see a "Hello World!".
 
-##A tip for your .gitignore:
+
+4. A tip for your .gitignore:
 
 ```bash
 node_modules/
 *.log
 ```
+
 This ensures your node_modules directory (which can be recreated with npm install from the package.json) and any .log files aren't committed to version control.
 
 
@@ -134,4 +136,3 @@ Wallace Espindola
 Email: wallace.espindola@gmail.com
 
 GitHub: https://github.com/wallaceespindola
-
