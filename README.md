@@ -3,6 +3,7 @@
 # PROJECT STRUCTURE:
 
 /my_project: nodejs-express-socket-uuid
+|-- /chat                  # node chat tests with socket.io
 |-- /node_modules          # Modules and packages installed by npm
 |-- /public                # Public static assets (e.g., styles, images)
 |-- /routes                # Express route handlers
