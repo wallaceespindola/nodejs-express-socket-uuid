@@ -1,4 +1,5 @@
-# Node.js Chat Application (Tests on node.js with packages like socket.io, express, uuid, moment, iodash, underscore, email validator)
+# Node.js Chat Application 
+##(Tests on node.js with packages like socket.io, express, uuid, moment, iodash, underscore, email validator)
 
 A simple real-time chat application built with Node.js, Express, Socket.io, and UUID. Also other tests added for packages like: moment, iodash, underscore, email validator.
 
@@ -18,7 +19,8 @@ A simple real-time chat application built with Node.js, Express, Socket.io, and 
 
 ## About
 
-This project showcases the capability of Socket.io in handling real-time communications in a web application. It's built using Express for the backend server and UUID for unique identification of chat messages.
+This project showcases the capability of Socket.io in handling real-time communications in a web application. 
+It's built using Express for the backend server and UUID for unique identification of chat messages.
 
 
 ## Structure:
@@ -36,18 +38,18 @@ This project showcases the capability of Socket.io in handling real-time communi
 ## Installation
 
 1. Clone the repository:
-   ```bash
-      git clone https://github.com/YourUsername/nodejs-express-socket-uuid.git
+  ```bash
+  git clone https://github.com/YourUsername/nodejs-express-socket-uuid.git
 
 Navigate to the project directory:
 
-    ```bash
-      cd nodejs-express-socket-uuid
+  ```bash
+  cd nodejs-express-socket-uuid
 
 Install the dependencies:
 
-    ```bash
-      npm install
+  ```bash
+  npm install
 
 2. Installing a Node.js package
 
@@ -117,17 +119,4 @@ Email: wallace.espindola@gmail.com
 
 GitHub: https://github.com/wallaceespindola
 
-   ```bash
-    /project: nodejs-express-socket-uuid
-    |-- /chat                  # node chat tests with socket.io
-    |-- /node_modules          # Modules and packages installed by npm
-    |-- /public                # Public static assets (e.g., styles, images)
-    |-- /routes                # Express route handlers
-    |-- /views                 # Template views (if using a templating engine)
-    |-- /models                # Database models (if using a database)
-    |-- /middlewares           # Middlewares for express (authentication, logging, etc.)
-    |-- /config                # Configuration files (database, environment variables)
-    |-- /test                  # Unit and integration tests
-    |-- package.json           # Project manifest
-    |-- server.js              # Main application entry point
-    |-- .gitignore             # List of files and folders to ignore in version
+
