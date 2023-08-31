@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "socket.io": "^4.7.2",
+    "underscore": "^1.13.6",
+    "uuid": "^9.0.0",
+    "validator": "^13.11.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "nodejs-express-socket-uuid",
+  "description": "",
+  "version": "1.0.0",
+  "main": "date-moment.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallaceespindola/nodejs-express-socket-uuid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallaceespindola/nodejs-express-socket-uuid/issues"
+  },
+  "homepage": "https://github.com/wallaceespindola/nodejs-express-socket-uuid#readme"
+}
