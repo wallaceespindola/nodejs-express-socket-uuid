@@ -40,24 +40,28 @@ This project showcases the capability of Socket.io in handling real-time communi
       git clone https://github.com/YourUsername/nodejs-express-socket-uuid.git
 
 Navigate to the project directory:
+
     ```bash
-    cd nodejs-express-socket-uuid
+      cd nodejs-express-socket-uuid
 
 Install the dependencies:
+
     ```bash
-    npm install
+      npm install
 
 2. Installing a Node.js package
 
 For our example, let's say you want to install the express framework. Here's how you'd do it:
 
 2.1. First, initialize a new Node.js project (if you haven’t already) by using:
+
     ```bash
     mkdir my_project
     cd my_project
     npm init -y
 
 2.2. Now, to install express:
+    
     ```bash
     npm install express
 
@@ -65,6 +69,7 @@ For our example, let's say you want to install the express framework. Here's how
 
 
 ##Run your server:
+    
     ```bash
     node server.js
     
@@ -72,8 +77,9 @@ Visit http://localhost:3000 in your browser, and you should see a "Hello World!"
 
 ##A tip for your .gitignore:
 
-node_modules/
-*.log
+   ```bash
+    node_modules/
+    *.log
 
 This ensures your node_modules directory (which can be recreated with npm install from the package.json) and any .log files aren't committed to version control.
 
