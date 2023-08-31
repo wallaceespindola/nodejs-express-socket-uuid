@@ -1,7 +1,8 @@
-# Node.js Chat Application (tests on socket.io, express, uuid, moment, iodash, underscore, validator)
+# Node.js Chat Application 
 
 A simple real-time chat application built with Node.js, Express, Socket.io, and UUID. Also other tests added for
 packages like: moment, iodash, underscore, email validator.
+
 
 ## Table of Contents
 
@@ -15,10 +16,12 @@ packages like: moment, iodash, underscore, email validator.
 - [License](#license)
 - [Contact](#contact)
 
+
 ## About
 
 This project showcases the capability of Socket.io in handling real-time communications in a web application.
 It's built using Express for the backend server and UUID for unique identification of chat messages.
+
 
 ## Structure:
 
@@ -38,12 +41,14 @@ It's built using Express for the backend server and UUID for unique identificati
 |-- .gitignore             # List of files and folders to ignore in version
 ```
 
+
 ## Features
 
 - **Real-time Chat**: Users can join and send messages in real time.
 - **Unique Identification**: Each message is tagged with a unique UUID.
 - **User Recognition**: The application recognizes users and announces when someone joins the chat.
 - **Other tests**: tests with uuid, moment, iodash, underscore, email validator
+
 
 ## Installation
 
@@ -121,11 +126,14 @@ To run the tests:
 npm test
 ```
 
+
 ## Contributing
+
 Contributions, issues, and feature requests are welcome! Feel free to check issues page.
 
 
 ## License
+
 Distributed under the Apache 2.0 License. See LICENSE for more information.
 
 
