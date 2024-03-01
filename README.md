@@ -1,3 +1,6 @@
+
+![Node.JS](https://avatars.githubusercontent.com/u/9950313?s=200&v=4)
+
 # Node.js Chat Application 
 
 A simple real-time chat application built with Node.js, Express, Socket.io, and UUID. Also other tests added for
