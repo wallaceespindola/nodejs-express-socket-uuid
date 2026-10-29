@@ -1,23 +1,27 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "monthly"
+      interval: 'monthly'
     groups:
       all:
-        patterns: ["*"]
-  - package-ecosystem: "docker"
-    directory: "/"
+        patterns: ['*']
+  - package-ecosystem: 'docker'
+    directory: '/'
     schedule:
-      interval: "monthly"
+      interval: 'monthly'
+    ignore:
+      # ponytail: majors here are JDK/Node releases; move LTS-to-LTS by hand
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
     groups:
       all:
-        patterns: ["*"]
-  - package-ecosystem: "github-actions"
-    directory: "/"
+        patterns: ['*']
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "monthly"
+      interval: 'monthly'
     groups:
       all:
-        patterns: ["*"]
+        patterns: ['*']
