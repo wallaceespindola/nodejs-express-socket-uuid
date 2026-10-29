@@ -1,41 +1,60 @@
 {
-  "dependencies": {
-    "colors": "^1.4.0",
-    "express": "^4.18.2",
-    "lodash": "^4.17.21",
-    "moment": "^2.29.4",
-    "nodemailer": "^6.9.4",
-    "socket.io": "^4.7.2",
-    "underscore": "^1.13.6",
-    "uuid": "^9.0.0",
-    "validator": "^13.11.0"
-  },
-  "scripts": {
-    "start": "node server.js",
-    "test": "mocha"
-  },
   "name": "nodejs-express-socket-uuid",
-  "description": "# PROJECT STRUCTURE:",
-  "version": "1.0.0",
-  "main": "date-moment.js",
-  "directories": {
-    "test": "test"
+  "version": "2.0.0",
+  "description": "Realtime chat with Express 5 and Socket.IO 4 where users and messages get crypto.randomUUID() ids, plus a tiny REST API.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=24"
   },
+  "packageManager": "pnpm@10.31.0",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . && prettier --check .",
+    "format": "prettier --write .",
+    "test": "vitest run --coverage"
+  },
+  "keywords": [
+    "express",
+    "socket.io",
+    "uuid",
+    "chat",
+    "typescript",
+    "websocket"
+  ],
+  "author": {
+    "name": "Wallace Espindola",
+    "email": "wallace.espindola@gmail.com",
+    "url": "https://github.com/wallaceespindola/"
+  },
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wallaceespindola/nodejs-express-socket-uuid.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/wallaceespindola/nodejs-express-socket-uuid/issues"
   },
   "homepage": "https://github.com/wallaceespindola/nodejs-express-socket-uuid#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "socket.io": "^4.8.4",
+    "zod": "^4.6.7"
+  },
   "devDependencies": {
-    "chai": "^4.3.8",
-    "chai-http": "^4.4.0",
-    "mocha": "^8.4.0",
-    "socket.io-client": "^4.7.2"
+    "@eslint/js": "^10.0.1",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "@vitest/coverage-v8": "^5.0.5",
+    "eslint": "^10.13.0",
+    "prettier": "^3.9.10",
+    "socket.io-client": "^4.8.4",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vitest": "^5.0.5"
   }
 }
